@@ -23,3 +23,10 @@ python3 calculadora.py
 ```bash
 python3 -m unittest -v
 ```
+
+## Linter
+
+```bash
+pip install -r requirements-dev.txt
+ruff check .
+```
